@@ -1,0 +1,305 @@
+    body {
+        margin: 0;
+        font-family: system-ui;
+        background-color: whitesmoke;
+    }
+    
+    .parallax,
+    .parallax1 {
+        height: max-content;
+        background-attachment: fixed;
+        background-position: center;
+        background-image: url(./veget.jpg);
+    }
+    
+    .page-title {
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        color: white;
+        padding: 50px;
+        font-variant: small-caps;
+        font-size: 100px;
+        font-family: fantasy;
+        letter-spacing: 20px;
+    }
+    
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .menu {
+        background: #184d47;
+        text-align: center;
+    }
+    
+    .menu ul {
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+    
+    .menu ul li {
+        font-size: 16px;
+        list-style: none;
+        display: inline-block;
+        padding: 25px 25px 25px 25px;
+    }
+    
+    .a-menu,
+    .a-links {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .menu ul li:hover {
+        background: #5b8c5a;
+        transform: scale(1. 1);
+    }
+    
+    .search-box {
+        border: 1px solid white;
+        border-radius: 10px;
+        background: white;
+        width: max-content;
+        margin: 4px;
+        display: inline-block;
+    }
+    
+    .search-box:hover {
+        border: 1px solid #5b8c5a;
+    }
+    
+    .search-input {
+        width: 250px;
+        border: none;
+        font-size: 16px;
+        outline: none;
+        background: transparent;
+        margin: 15px 0 0 10px;
+    }
+    
+    .container,
+    .deals-container {
+        margin: 50px 50px 50px 5%;
+        width: 90%;
+        text-align: center;
+    }
+    
+    .Categories,
+    .items {
+        width: max-content;
+        margin: 25px;
+        border: 1px solid #184d47;
+        border-radius: 0 0 50px 50px;
+        display: inline-block;
+    }
+    
+    .Categories:hover,
+    .items:hover {
+        box-shadow: 0 0 10px 3px #184d47;
+    }
+    
+    .item-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 0 0 50px 50px;
+        padding: 10px;
+    }
+    
+    .image-title {
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .title {
+        padding: 50px;
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 10px;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    
+    .deal {
+        padding: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        display: inline-block;
+        margin: 20px;
+        max-width: 20%;
+        background: linear-gradient(120deg, #16817a 20%, #cee397 50%, #16817a 80%);
+    }
+    
+    .coupon-btn {
+        border: 1px solid rgb(28, 14, 218);
+        color: rgb(241, 33, 102);
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    .coupon-btn:hover {
+        box-shadow: 0 0 10px 5px white inset;
+        cursor: pointer;
+    }
+    
+    .images {
+        display: inline-block;
+    }
+    
+    .item-image-size {
+        height: 200px;
+        width: 300px;
+        padding: 5px;
+    }
+    
+    .description {
+        margin: 20px;
+        max-height: 100px;
+    }
+    
+    .item-select {
+        margin: 10px 0 0 0;
+    }
+    
+    .buynow-btn {
+        border: 1px solid #184d47;
+        background: #184d47;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-weight: bold;
+        margin-top: 5px;
+        color: white;
+    }
+    
+    .buynow-btn:hover {
+        border: 1px solid #5b8c5a;
+        box-shadow: 0 0 10px 5px #ecc412 inset;
+        cursor: pointer;
+    }
+    
+    .parallax1 {
+        background-image: url(./vege.jpg);
+    }
+    
+    .footer {
+        background: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .quick-links {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: bold;
+        display: inline-block;
+        min-width: 30%;
+    }
+    
+    .quick-links ul {
+        padding: 0;
+    }
+    
+    .quick-links li {
+        list-style: none;
+        padding: 10px;
+        font-weight: 300;
+    }
+    
+    .a-links:hover {
+        color: #d6e906;
+    }
+    
+    .copyrights {
+        font-size: 16px;
+        font-family: Verdana, Helvetica, Arial, sans-serif;
+        text-align: center;
+        margin: 15px;
+        background-color: firebrick;
+        color: white;
+    }
+    
+    .search-btn {
+        background: transparent;
+        outline: none;
+        border: none;
+    }
+    
+    .search-btn:hover {
+        cursor: pointer;
+    }
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        display: inline-block;
+        position: inherit;
+    }
+    
+    .reg-box input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 30px;
+        background: #0c5fcc;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 20px;
+        width: 90px;
+    }
+    
+    .login-box input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 30px;
+        background: #0daabe;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 20px;
+        width: 90px;
+    }
+    
+    .reg-box input[type="submit"]:hover {
+        cursor: pointer;
+        background-color: chocolate;
+    }
+    
+    .login-box input[type="submit"]:hover {
+        cursor: pointer;
+        background-color: chocolate;
+    }
+    
+    .active:visited {
+        color: #d6e906;
+    }
+    
+    .active,
+    .menu ul li:hover {
+        background: #7ecc5a;
+        border-radius: 3px;
+    }
+    
+    .profile-img {
+        display: inline-flex;
+        position: absolute;
+    }
+    
+    .profile-img:hover {
+        cursor: pointer;
+    }
+    
+    .ads {
+        color: yellow;
+        background-color: rgb(135, 135, 160);
+        border-width: 20px;
+        font-size: 20px;
+        font-display: initial;
+    }
